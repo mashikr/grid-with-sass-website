@@ -290,10 +290,10 @@
             padding: .8rem 1.5rem;
             color: var(--light);
             text-decoration: none;
-            font-size: 1.4rem;
+            font-size: 1.3rem;
             border-radius: .5rem;
 
-            @media only screen and (max-width: $bp-small) {
+            @media only screen and (max-width: 51em) {
                 display: block;
                 height: 4rem;
             }
@@ -320,7 +320,7 @@
         &-port {
             background-color: var(--success);
 
-            @media only screen and (max-width: $bp-small) {
+            @media only screen and (max-width: 51em) {
                margin-bottom: .5rem;
             }
         }
